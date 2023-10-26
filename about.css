@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(241, 247, 246);
+    width: 96%;
+    margin:15px auto;
+    border: 1px solid black;
+   
+}
+main{
+    width: 60%;
+    height: auto;
+
+    float: left;
+    position: relative;
+    
+}
+aside{
+    width: 36%px;
+    float: right;
+    clear: left;
+   
+}
+footer{
+   clear: both;
+   border-top: 2px solid  rgb(221, 149, 15);
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    
+    background-color: black;
+    color: white;
+}
+ul{
+    display: flex;
+   
+}
+li{
+    list-style-type: none;
+    padding-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#head{
+    text-align: center;
+    color: red;
+}
+a:hover{
+    color: blueviolet;
+}
+.about{
+    width:100%
+}
+.about h2{
+    text-align: center;
+}
+.sub_title{
+    text-align: center;
+    border-bottom: 3px solid  rgb(197, 40, 40);
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.sub_title_2{
+    text-align: center;
+    border-bottom: 3px solid  rgb(197, 40, 40);
+    margin-left: 40%;
+    margin-right: 40%;   
+}
+.about_conatainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "head head"
+    "p1    p2"
+    "p3    p4 "
+    ;
+    gap: 10px;
+}
+.about_head{
+    grid-area: head;
+}
+.section_1{
+    grid-area: p1;
+}
+.section_2{
+    grid-area: p2;
+}
+.section_3{
+    grid-area: p3;
+}
+.section_4{
+    grid-area: p4;
+}
+.about_conatainer div{
+    border: 5px inset rgb(126, 233, 76);
+    border-radius: 0.5rem;
+    padding: 3px;
+    box-shadow: 3px 3px 3px 3px rgb(85, 82, 82);
+    margin: 4px;
+  
+}
+#section h3{
+   text-align: center; 
+}  
+footer{
+    clear: both;
+    border-top: 2px solid  rgb(221, 149, 15);
+ }
